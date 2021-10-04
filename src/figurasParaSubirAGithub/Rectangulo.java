@@ -12,4 +12,10 @@ public Rectangulo(double ancho, double alto) {
 public String toString() {
 	return "Rectangulo [ancho=" + ancho + ", alto=" + alto + "]";
 }
+	public double getPerimetro() {
+	return this.alto * 2 + this.ancho * 2;
+}
+	public double getArea() {
+	return this.alto *this.ancho;
+}
 }
